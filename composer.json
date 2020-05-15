@@ -1,0 +1,25 @@
+{
+  "name": "divine/atm",
+  "description": "atm-work-imitation",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "divine",
+      "email": "sut.vinogradov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "app",
+      "test\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "2.4.5",
+    "phpunit/phpunit": "5.7.27"
+  }
+}
